@@ -1,0 +1,76 @@
+html {
+  background-color : rgba(0,0,0,0.5);
+}
+#field {
+    display : block;
+    margin : auto;
+    background-color: white;
+    border : 10px solid black;
+
+}
+
+h1 {
+  color : white;
+}
+
+div#control {
+  text-align : center;
+  margin : 10px;
+}
+
+button {
+  font-size : 40px;
+}
+
+#controls {
+  margin : 20px auto;
+  text-align:center;
+}
+#controls input {
+  font-size : 32px;
+  position: relative;
+  left: 80px;
+}
+span#scoreG{
+position: relative;
+  display : inline-block;
+  width : 100px;
+  font-size : 30px;
+  text-align : center;
+  background-color : white;
+  right: 370px;
+
+
+}
+span#scoreD{
+  position: relative;
+  display : inline-block;
+  width : 100px;
+  font-size : 30px;
+  text-align : center;
+  background-color : white;
+  left:  200px;
+}
+#wrapper, #loginform {
+    margin:0 auto;
+    background:gray;
+    width:500px;
+    border:1px solid #ACD8F0; }
+
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    padding:10px;
+    background:white;
+    height:270px;
+    width:430px;
+    border:1px solid black;
+    overflow:auto; }
+
+#usermsg {
+    width:395px;
+    left:300px;
+    border:1px solid #black;
+  margin-left: 30px;}
+
+#submit { width: 60px; }
